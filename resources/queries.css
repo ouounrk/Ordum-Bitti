@@ -1,0 +1,59 @@
+
+/*Big tablets to normal screen*/
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+}
+}
+
+/*Small tablets to big tablets: from 768px to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+ body {font-size: 18px;}
+ .row {padding: 0 2%;}
+ .main-nav {margin-left:200px;}
+ .section-form{margin-top: -200px;}
+ .line-break {display:block;}
+}
+
+/*Small phones to small tablets: from 481 to 767*/
+
+@media only screen and (max-width: 767px) {
+ .section-form{margin-top: -300px;}
+ body {font-size: 18px;}
+
+ .main-nav {display:none;}
+ .main-nav li{display:block;margin: 6px 0px; border:0;}
+ .main-nav li:first-child{margin-top:40px !important;}
+
+ header ul li a:hover{
+    padding-bottom: 0px;
+}
+
+ .main-nav li a:link,
+ .main-nav li a:visited {
+     display:block;
+     border:0;
+ }
+ .icon-2 {display:inline-block;}
+
+ .sticky .mobile-nav-icon {color: #555;}
+
+ .row,
+ .hero-text-box {padding: 0 4%;}
+ .row .col {width:100%;}
+
+ .section-form input,
+ .section-form select,
+ .section-form textarea {margin: 12px 0;}
+
+ #footer-social {margin-top: -21px;}
+}
+
+/*Small phones: from 0 to 480*/
+
+@media only screen and (max-width: 480px) {
+
+}
